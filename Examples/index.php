@@ -60,7 +60,19 @@
                 <h3>
                     Working with Annotations</h3>
                 <ol>
-                    <li><a href="Working_With_Annotations/Annotation_Php_Add_Annotation.php" target="_blank">Add_Annotation</a></li>
+                    <li><a href="Working_With_Annotations/Annotation_Php_Add_Multiple_Annotations.php" target="_blank">Add_Multiple_Annotations</a></li>
+                    <li><a href="Working_With_Annotations/Annotation_Php_Add_Area_Annotation.php" target="_blank">Add_Area_Annotation</a></li>
+                    <li><a href="Working_With_Annotations/Annotation_Php_Add_Arrow_Annotation.php" target="_blank">Add_Arrow_Annotation</a></li>
+                    <li><a href="Working_With_Annotations/Annotation_Php_Add_Distance_Annotation.php" target="_blank">Add_Distance_Annotation</a></li>
+                    <li><a href="Working_With_Annotations/Annotation_Php_Add_Point_Annotation.php" target="_blank">Add_Point_Annotation</a></li>
+                    <li><a href="Working_With_Annotations/Annotation_Php_Add_Polyline_Annotation.php" target="_blank">Add_Polyline_Annotation</a></li>
+                    <li><a href="Working_With_Annotations/Annotation_Php_Add_Text_Annotation.php" target="_blank">Add_Text_Annotation</a></li>
+                    <li><a href="Working_With_Annotations/Annotation_Php_Add_TextField_Annotation.php" target="_blank">Add_Text_Field_Annotation</a></li>
+                    <li><a href="Working_With_Annotations/Annotation_Php_Add_TextReplacement_Annotation.php" target="_blank">Add_Text_Replacement_Annotation</a></li>
+                    <li><a href="Working_With_Annotations/Annotation_Php_Add_TextRedaction_Annotation.php" target="_blank">Add_Text_Redaction_Annotation</a></li>
+                    <li><a href="Working_With_Annotations/Annotation_Php_Add_TextStrikeout_Annotation.php" target="_blank">Add_Text_Strikeout_Annotation</a></li>
+                    <li><a href="Working_With_Annotations/Annotation_Php_Add_TextUnderline_Annotation.php" target="_blank">Add_Text_Underline_Annotation</a></li>
+                    <li><a href="Working_With_Annotations/Annotation_Php_Add_Watermark_Annotation.php" target="_blank">Add_Watermark_Annotation</a></li>
                     <li><a href="Working_With_Annotations/Annotation_Php_Get_Annotation.php" target="_blank">Get_Annotation</a></li>
                     <li><a href="Working_With_Annotations/Annotation_Php_Get_Export_Document.php" target="_blank">Get_Export_Document</a></li>
                     <li><a href="Working_With_Annotations/Annotation_Php_Get_PDF.php" target="_blank">Get_PDF</a></li>
