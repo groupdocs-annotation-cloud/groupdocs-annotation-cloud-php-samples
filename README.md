@@ -1,18 +1,44 @@
-## GroupDocs.Annotation Cloud SDK for Php
+## GroupDocs.Annotation Cloud SDK for PHP Examples
 
-[GroupDocs.Annotation Cloud SDK for Php](https://products.groupdocs.cloud/annotation/php) allows you to enhance your application with the capability to add Text, Area, Point, Polyline, Pointer and Watermark annotations to documents of various ‎formats using Ruby Applications. GroupDocs.Annotation Cloud SDK for Php has been developed to help you integrate all these features in your Ruby application without any hassle.
+This repository contains [Examples](Examples) projects for [GroupDocs.Annotation Cloud SDK for PHP](https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-php) to help you learn and write your own applications.
 
-This repository contains [Examples](Examples) projects for [GroupDocs.Annotation Cloud SDK for Php](https://products.groupdocs.cloud/annotation/php) to help you learn and write your own applications.
+[GroupDocs.Annotation Cloud SDK for PHP](https://products.groupdocs.cloud/annotation/php) allows you to work with [GroupDocs.Annotation Cloud API](https://products.groupdocs.cloud/annotation) REST APIs in your PHP applications.
 
 <p align="center">
-
-  <a title="Download complete GroupDocs.Annotation Cloud SDK Examples for PHP source code" href="https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-php-samples/archive/master.zip">
+  <a title="Download complete GroupDocs.Annotation Cloud SDK PHP Example source code" href="https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-php-samples/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
 
-Directory | Description
---------- | -----------
-[Examples](Examples)  | A collection of PHP Cloud SDK examples that help you learn the product features
+## Prerequisites
 
-[Home](https://www.groupdocs.cloud/) | [Product Page](https://products.groupdocs.cloud/annotation/php) | [Docs](https://docs.groupdocs.cloud/annotation/) | [Demos](https://products.groupdocs.app/annotation/family) | [API Reference](https://apireference.groupdocs.cloud/annotation/) | [Source Code](https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-php) | [Blog](https://blog.groupdocs.cloud/category/annotation/) | [Free Support](https://forum.groupdocs.cloud/c/annotation) | [Free Trial](https://purchase.groupdocs.cloud/trial)
++ PHP with Composer installed
++ Get your AppSID and AppKey at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
+
+## How to Run the Examples
+
+The package contains PHP examples. Follow the given steps to proceed run:
+
+*Extract the downloaded project
+*Edit Utils.php and put appSid and appKey, obtained from [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) there
+*Go to "Examples" directory of the project
+*Execute "composer update" command
+*Run examples using "php .\RunExamples.php" command
+
+For more details, visit  [Getting Started](https://wiki.groupdocs.cloud/annotationcloud/getting-started/quick-start).
+
+## Licensing
+
+All GroupDocs.Annotation Cloud SDKs are licensed under [MIT License](LICENSE).
+
+## Resources
+
++ [**Website**](https://www.groupdocs.cloud)
++ [**Product Home**](https://products.groupdocs.cloud/annotation)
++ [**Documentation**](https://docs.groupdocs.cloud/annotation)
++ [**Free Support Forum**](https://forum.groupdocs.cloud/c/annotation)
++ [**Blog**](https://blog.groupdocs.cloud/category/annotation)
+
+## Contact Us
+
+Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/c/annotation).
