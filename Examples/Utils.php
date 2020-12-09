@@ -3,9 +3,9 @@
 // Utility class to hold the constants and static functions
 class Utils {
 
-    // TODO: Get your AppSID and AppKey at https://dashboard.groupdocs.cloud (free registration is required)
-    static $AppSid = 'XXXX-XXXX-XXXX-XXXX';
-    static $AppKey = 'XXXXXXXXXXXXXXXX';
+    // TODO: Get your ClientId and ClientSecret at https://dashboard.groupdocs.cloud (free registration is required)
+    static $ClientId = 'XXXX-XXXX-XXXX-XXXX';
+    static $ClientSecret = 'XXXXXXXXXXXXXXXX';
 
     static $ApiBaseUrl = 'https://api.groupdocs.cloud';
 	static $MyStorage = 'First Storage';
@@ -16,8 +16,8 @@ class Utils {
         $configuration = new GroupDocs\Annotation\Configuration();
 
         // Seting the configurations
-        $configuration->setAppSid(Utils::$AppSid);
-        $configuration->setAppKey(Utils::$AppKey);
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
         $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
 
         // Retrun the new AnnotationAPI instance
@@ -30,8 +30,8 @@ class Utils {
         $configuration = new GroupDocs\Annotation\Configuration();
 
         // Seting the configurations
-        $configuration->setAppSid(Utils::$AppSid);
-        $configuration->setAppKey(Utils::$AppKey);
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
         $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
 
         // Retrun the new PreviewAPI instance
@@ -44,8 +44,8 @@ class Utils {
         $configuration = new GroupDocs\Annotation\Configuration();
 
         // Seting the configurations
-        $configuration->setAppSid(Utils::$AppSid);
-        $configuration->setAppKey(Utils::$AppKey);
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
         $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
 
         // Retrun the new Info instance
@@ -58,8 +58,8 @@ class Utils {
         $configuration = new GroupDocs\Annotation\Configuration();
 
         // Seting the configurations
-        $configuration->setAppSid(Utils::$AppSid);
-        $configuration->setAppKey(Utils::$AppKey);
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
         $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
 
         // Retrun the new StorageApi instance
@@ -72,8 +72,8 @@ class Utils {
         $configuration = new GroupDocs\Annotation\Configuration();
 
         // Seting the configurations
-        $configuration->setAppSid(Utils::$AppSid);
-        $configuration->setAppKey(Utils::$AppKey);
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
         $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
 
         // Retrun the new FolderApi instance
@@ -86,8 +86,8 @@ class Utils {
         $configuration = new GroupDocs\Annotation\Configuration();
 
         // Seting the configurations
-        $configuration->setAppSid(Utils::$AppSid);
-        $configuration->setAppKey(Utils::$AppKey);
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
         $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
 
         // Retrun the new FileApi instance
