@@ -4,7 +4,10 @@ class DeletePages {
 	public static function Run() { 
 		$apiInstance = Utils::GetPreviewApiInstance();
 		
-		$request = new GroupDocs\Annotation\Model\Requests\DeletePagesRequest("annotationdocs\\one-page.docx");
+		$fileInfo = new GroupDocs\Annotation\Model\FileInfo();
+		$fileInfo->setFilePath("annotationdocs\\one-page.docx");
+
+		$request = new GroupDocs\Annotation\Model\Requests\DeletePagesRequest($fileInfo);
 		$apiInstance->deletePages($request);
 	
 		echo "DeletePages: pages deleted.";

@@ -81,8 +81,16 @@ class AddMultipleAnnotations {
 		$a3->setText("This is arrow annotation");
 		$a3->setCreatorName("Anonym A."); 
 
-		$request = new GroupDocs\Annotation\Model\Requests\postAnnotationsRequest("annotationdocs\\ten-pages.docx", [$a, $a1, $a2, $a3]);
-		$apiInstance->postAnnotations($request);
+		$fileInfo = new GroupDocs\Annotation\Model\FileInfo();
+		$fileInfo->setFilePath("annotationdocs\\ten-pages.docx");
+
+		$options = new GroupDocs\Annotation\Model\AnnotateOptions();
+		$options->setFileInfo($fileInfo);
+		$options->setAnnotations([$a, $a1, $a2, $a3]);
+		$options->setOutputPath("Output\\output.docx");
+
+		$request = new GroupDocs\Annotation\Model\Requests\annotateRequest($options);
+		$result = $apiInstance->annotate($request);
 
 		echo "AddMultipleAnnotations: Multiple Annotations added.";
 	}

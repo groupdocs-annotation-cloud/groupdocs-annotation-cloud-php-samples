@@ -1,6 +1,6 @@
 <?php
 
-class AddEllipseAnnotation {
+class AddAnnotationDirect {
 	public static function Run() { 
 		$apiInstance = Utils::GetAnnotateApiInstance();
 		
@@ -20,8 +20,8 @@ class AddEllipseAnnotation {
 		$a->setPenStyle(GroupDocs\Annotation\Model\AnnotationInfo::PEN_STYLE_SOLID);
 		$a->setPenWidth(1);
 		$a->setOpacity(0.7);
-		$a->setType(GroupDocs\Annotation\Model\AnnotationInfo::TYPE_ELLIPSE);
-		$a->setText("This is ellipse annotation");
+		$a->setType(GroupDocs\Annotation\Model\AnnotationInfo::TYPE_AREA);
+		$a->setText("This is area annotation");
 		$a->setCreatorName("Anonym A.");   
 
 		$fileInfo = new GroupDocs\Annotation\Model\FileInfo();
@@ -30,11 +30,10 @@ class AddEllipseAnnotation {
 		$options = new GroupDocs\Annotation\Model\AnnotateOptions();
 		$options->setFileInfo($fileInfo);
 		$options->setAnnotations([$a]);
-		$options->setOutputPath("Output\\output.docx");
 
-		$request = new GroupDocs\Annotation\Model\Requests\annotateRequest($options);
-		$result = $apiInstance->annotate($request);
+		$request = new GroupDocs\Annotation\Model\Requests\annotateDirectRequest($options);
+		$result = $apiInstance->annotateDirect($request);
 
-		echo "AddEllipseAnnotation: Ellipse Annotation added: " . $result->getHref();
+		echo "AddAnnotationDirect: File size: " . $result->getSize();
 	}
 }

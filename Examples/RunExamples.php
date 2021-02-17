@@ -23,8 +23,8 @@ include(__DIR__ . '\AdvancedUsage\AddAnnotations\AddTextStrikeoutAnnotation.php'
 include(__DIR__ . '\AdvancedUsage\AddAnnotations\AddTextUnderlineAnnotation.php');
 include(__DIR__ . '\AdvancedUsage\AddAnnotations\AddWatermarkAnnotation.php');
 
-include(__DIR__ . '\AdvancedUsage\ExportDocumentWithAnnotations\ExportDocumentWithAnnotations.php');
-include(__DIR__ . '\AdvancedUsage\GetAnnotations\GetAnnotations.php');
+include(__DIR__ . '\AdvancedUsage\AddAnnotationDirect\AddAnnotationDirect.php');
+include(__DIR__ . '\AdvancedUsage\ExtractAnnotations\ExtractAnnotations.php');
 include(__DIR__ . '\AdvancedUsage\DeleteAnnotations\DeleteAnnotations.php');
 include(__DIR__ . '\AdvancedUsage\DocumentPreview\GetPages.php');
 include(__DIR__ . '\AdvancedUsage\DocumentPreview\DeletePages.php');
@@ -37,17 +37,17 @@ Utils::UploadResources();
 GetSupportedFormats::Run();
 GetDocumentInformation::Run();
 
-//GetDiscUsage::Run();
-//GetFileVersions::Run();
-//ObjectExists::Run();
-//StorageExist::Run();
+GetDiscUsage::Run();
+GetFileVersions::Run();
+ObjectExists::Run();
+StorageExist::Run();
 
 // Advanced usage Examples
 
 AddAreaAnnotation::Run();
 // AddArrowAnnotation::Run();
 // AddDistanceAnnotation::Run();
-// AddMultipleAnnotations::Run();
+AddMultipleAnnotations::Run();
 // AddPointAnnotation::Run();
 // AddPolylineAnnotation::Run();
 // AddTextFieldAnnotation::Run();
@@ -57,8 +57,8 @@ AddAreaAnnotation::Run();
 // AddTextUnderlineAnnotation::Run();
 // AddWatermarkAnnotation::Run();
 
-//ExportDocumentWithAnnotations::Run();
-GetAnnotations::Run();
+AddAnnotationDirect::Run();
+ExtractAnnotations::Run();
 DeleteAnnotations::Run();
 
 GetPages::Run();

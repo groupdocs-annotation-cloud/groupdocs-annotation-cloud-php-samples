@@ -2,7 +2,13 @@
     "name": "groupdocscloud/groupdocs-annotation-cloud-php-examples",
     "description": "GroupDocs.Annotation Cloud SDK for PHP Examples",
     "license": "MIT",     
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../../GitLab/PhpSdk/src"
+        }
+    ],     
     "require": {
-        "groupdocscloud/groupdocs-annotation-cloud": "20.10"
+        "groupdocscloud/groupdocs-annotation-cloud": "21.2"
     }
 }

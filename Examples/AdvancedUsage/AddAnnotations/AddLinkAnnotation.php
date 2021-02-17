@@ -25,9 +25,17 @@ class AddLinkAnnotation {
 		$a->setText("This is link annotation");
 		$a->setCreatorName("Anonym A.");   
 
-		$request = new GroupDocs\Annotation\Model\Requests\postAnnotationsRequest("annotationdocs\\one-page.docx", [$a]);
-		$apiInstance->postAnnotations($request);
+		$fileInfo = new GroupDocs\Annotation\Model\FileInfo();
+		$fileInfo->setFilePath("annotationdocs\\one-page.docx");
 
-		echo "AddLinkAnnotation: Link Annotation added.";
+		$options = new GroupDocs\Annotation\Model\AnnotateOptions();
+		$options->setFileInfo($fileInfo);
+		$options->setAnnotations([$a]);
+		$options->setOutputPath("Output\\output.docx");
+
+		$request = new GroupDocs\Annotation\Model\Requests\annotateRequest($options);
+		$result = $apiInstance->annotate($request);
+
+		echo "AddLinkAnnotation: Link Annotation added: " . $result->getHref();
 	}
 }
