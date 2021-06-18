@@ -45,17 +45,17 @@ StorageExist::Run();
 // Advanced usage Examples
 
 AddAreaAnnotation::Run();
-// AddArrowAnnotation::Run();
-// AddDistanceAnnotation::Run();
+AddArrowAnnotation::Run();
+AddDistanceAnnotation::Run();
 AddMultipleAnnotations::Run();
-// AddPointAnnotation::Run();
-// AddPolylineAnnotation::Run();
-// AddTextFieldAnnotation::Run();
-// AddTextRedactionAnnotation::Run();
-// AddTextReplacementAnnotation::Run();
-// AddTextStrikeoutAnnotation::Run();
-// AddTextUnderlineAnnotation::Run();
-// AddWatermarkAnnotation::Run();
+AddPointAnnotation::Run();
+AddPolylineAnnotation::Run();
+AddTextFieldAnnotation::Run();
+AddTextRedactionAnnotation::Run();
+AddTextReplacementAnnotation::Run();
+AddTextStrikeoutAnnotation::Run();
+AddTextUnderlineAnnotation::Run();
+AddWatermarkAnnotation::Run();
 
 AddAnnotationDirect::Run();
 ExtractAnnotations::Run();

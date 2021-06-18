@@ -4,8 +4,8 @@
 class Utils {
 
     // TODO: Get your ClientId and ClientSecret at https://dashboard.groupdocs.cloud (free registration is required)
-    static $ClientId = 'annotation.cloud';
-    static $ClientSecret = 'annotation.cloud';
+    static $ClientId = 'XXXX-XXXX-XXXX-XXXX';
+    static $ClientSecret = 'XXXXXXXXXXXXXXXX';
 
     static $ApiBaseUrl = 'https://api.groupdocs.cloud';
 	static $MyStorage = 'First Storage';
