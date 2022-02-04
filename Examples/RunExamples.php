@@ -21,6 +21,7 @@ include(__DIR__ . '\AdvancedUsage\AddAnnotations\AddTextRedactionAnnotation.php'
 include(__DIR__ . '\AdvancedUsage\AddAnnotations\AddTextReplacementAnnotation.php');
 include(__DIR__ . '\AdvancedUsage\AddAnnotations\AddTextStrikeoutAnnotation.php');
 include(__DIR__ . '\AdvancedUsage\AddAnnotations\AddTextUnderlineAnnotation.php');
+include(__DIR__ . '\AdvancedUsage\AddAnnotations\AddSquigglyAnnotation.php');
 include(__DIR__ . '\AdvancedUsage\AddAnnotations\AddWatermarkAnnotation.php');
 
 include(__DIR__ . '\AdvancedUsage\AddAnnotationDirect\AddAnnotationDirect.php');
